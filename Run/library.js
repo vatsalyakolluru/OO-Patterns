@@ -1,5 +1,5 @@
-var carlike = function(obj, loc)
-	obj.loc = loc;
+var Car = function(loc) {
+	var obj = {loc: loc};
 	obj.move = function(){
 		obj.loc++;
 	};
